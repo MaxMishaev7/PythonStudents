@@ -59,10 +59,10 @@ best_lecturer = Lecturer("Viso", "Visioner")
 print(best_lecturer.name)
 print(best_lecturer.surname)
 
-best_lecturer.courses_grades = ['Java']
-best_lecturer.courses_grades['Java'] = 5
+
+best_lecturer.courses_grades['Java'] = [5]
 print(best_lecturer.courses_grades)
-# best_student.lecturers_grade(best_lecturer, 'Java', 8)
+best_student.lecturers_grade(best_lecturer, 'Python', 8)
 # best_student.lecturers_grade(best_lecturer, 'C++', 10)
 
 print(best_student.grades)
